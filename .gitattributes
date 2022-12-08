@@ -1,1 +1,2 @@
-rclone filter=lfs diff=lfs merge=lfs -text
+*.aix filter=lfs diff=lfs merge=lfs -text
+*.ibmi filter=lfs diff=lfs merge=lfs -text
